@@ -2,7 +2,7 @@ function _add_private_keys
     set keys $argv
 
     for key in $keys
-        set private (__get_private $key)
+        set private (__get_private_key $key)
 
         if __private_key_exists $private
             ssh-add $private
