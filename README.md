@@ -10,3 +10,10 @@ Automatically starts up `ssh-agent` if it's not already running, adding all iden
 ```bash
 fisher i herrbischoff/fish-ssh-agent
 ```
+
+
+### Test
+
+Install [`fishtape`](https://github.com/fisherman/fishtape) and optionally a [`tap` converter](https://github.com/gummesson/tap-min):
+
+    fishtape test/add_keys.fish
